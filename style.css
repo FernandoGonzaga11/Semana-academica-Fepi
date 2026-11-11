@@ -155,3 +155,4 @@ ul { list-style: none; margin: 0; padding: 0; }
   .cards { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+.logo img { height: 52px; width: auto; }
