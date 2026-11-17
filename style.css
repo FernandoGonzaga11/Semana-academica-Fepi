@@ -156,3 +156,6 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 .logo img { height: 52px; width: auto; }
+.pessoas { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 40px; }
+.pessoa { background: #fff; border: 1px solid #e3e9f2; border-radius: 16px; padding: 24px; text-align: center; }
+.pessoa img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; }
